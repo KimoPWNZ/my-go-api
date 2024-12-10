@@ -49,5 +49,6 @@ jobs:
 
       - name: Build and push Docker image  
         run: |  
-          docker build . -t /Users/kimopwnz/my-go-api:latest  
-          docker push /Users/kimopwnz/my-go-api:latest
+          cd /Users/kimopwnz/my-go-api
+          docker build . -t yourusername/my-go-api:latest  
+          docker push yourusername/my-go-api:latest
