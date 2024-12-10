@@ -48,7 +48,6 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}  
 
       - name: Build and push Docker image  
-        run: |  
-          cd /Users/kimopwnz/my-go-api
+        run: |
           docker build . -t yourusername/my-go-api:latest  
           docker push yourusername/my-go-api:latest
