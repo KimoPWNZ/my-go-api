@@ -1,3 +1,2 @@
-module yourusername/my-go-api  
-
+module my-go-api
 go 1.23  
